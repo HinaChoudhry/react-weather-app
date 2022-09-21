@@ -83,8 +83,8 @@ export default function Weather(props) {
         </div>
         &nbsp;
       </div>
-      <a href="https://github.com/HinaChoudhry/weather-app">Project</a> by Hina
-      Choudhry
+      <a href="https://github.com/HinaChoudhry/react-weather-app">Project</a> by
+      Hina Choudhry
     </div>
   );
 }
