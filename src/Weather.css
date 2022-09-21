@@ -1,0 +1,50 @@
+.con-width {
+  max-width: 100%;
+  border: 2px solid #000;
+  background: #eeeef1b9;
+}
+
+.con-margin {
+  margin-top: 30px;
+}
+
+.date {
+  margin-top: 25px;
+  left: 57px;
+}
+
+.weather-margin {
+  margin-top: 40px;
+}
+
+.forecast-margin {
+  text-align: center;
+}
+
+.navbar-margin {
+  margin-top: 15px;
+}
+
+.btn-margin {
+  margin-right: 10px;
+}
+
+.weather-temperature .active {
+  color: #000;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.inline-icon {
+  display: block;
+}
+
+.min-temp {
+  color: rgba(0, 0, 0, 0.589);
+}
+text-center {
+  text-align: center;
+}
