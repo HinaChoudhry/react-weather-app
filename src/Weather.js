@@ -16,7 +16,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.name,
       description: response.data.weather[0].description,
-      iconUrl: "http://openweathermap.org/img/wn/01d@2x.png",
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       date: new Date(response.data.dt * 1000),
     });
   }
@@ -78,11 +78,9 @@ export default function Weather(props) {
             </div>
           </div>
           <WeatherInfo data={weatherData} />
-          <a href="https://github.com/HinaChoudhry/react-weather-app">
-            Project
-          </a>{" "}
-          by Hina Choudhry
         </div>
+        <a href="https://github.com/HinaChoudhry/react-weather-app">Project</a>{" "}
+        by Hina Choudhry
       </div>
     );
   } else {
