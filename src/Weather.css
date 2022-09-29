@@ -48,3 +48,7 @@
 text-center {
   text-align: center;
 }
+
+.weather-icon {
+  margin-top: 50px;
+}
