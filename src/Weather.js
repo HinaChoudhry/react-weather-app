@@ -13,6 +13,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       city: response.data.name,
@@ -79,7 +80,7 @@ export default function Weather(props) {
             </div>
           </div>
           <WeatherInfo data={weatherData} />
-          <WeatherForecast />
+          <WeatherForecast coordinates={weatherData.coordinates} />
         </div>
         <a href="https://github.com/HinaChoudhry/react-weather-app">Project</a>{" "}
         by Hina Choudhry
