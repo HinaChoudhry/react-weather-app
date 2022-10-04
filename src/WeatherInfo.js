@@ -31,25 +31,15 @@ export default function WeatherInfo(props) {
             </li>
           </ul>
         </div>
-        <div className="col-6 weather-icon">
+        <div className="col-6 weather-icon-main">
           <WeatherIcon
             code={props.data.icon}
             alt={props.data.description}
+            size={200}
             id="icon"
           />
         </div>
       </div>
-      <div className="forecast-margin">
-        <p>Forecast for the next six days</p>
-      </div>
-      <div className="row justify-content-center" id="forecast">
-        <div class="col-sm-2">
-          ☀️
-          <br />
-          <br />c
-        </div>
-      </div>
-      &nbsp;
     </div>
   );
 }
