@@ -16,7 +16,8 @@ export default function WeatherInfo(props) {
             </li>
             <li>
               <h2>
-                <WeatherTemperature celsius={props.data.temperature} />
+                {Math.round(props.data.temperature)}
+                <small>c</small>
               </h2>
             </li>
             <li>
