@@ -67,14 +67,6 @@ export default function Weather(props) {
                   >
                     Search
                   </button>
-                  <button
-                    type="button"
-                    className="btn btn-outline-success"
-                    button
-                    id="current-location"
-                  >
-                    Current city
-                  </button>
                 </form>
               </nav>
             </div>
